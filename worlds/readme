@@ -1,0 +1,12 @@
+COMPSYS726: Assignment 1 Resources
+==================================
+
+There are two example worlds in this file:
+* example_1.world: an empty room
+* example_2.world: the same room as example_1.world but with obstacles in it
+
+To start Gazebo with one of the worlds use the following command from the terminal:
+
+roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=$PWD/worlds/filename
+
+Where filename is the name of the file containing a world (e.g. example_2.world).

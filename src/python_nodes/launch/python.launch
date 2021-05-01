@@ -1,0 +1,6 @@
+<launch>
+<node pkg="python_nodes" type="movement.py" name="movement_node" /> 
+<node pkg="python_nodes" type="laser_data.py" name="logging_node" />
+<node pkg="python_nodes" type="obst_avoid2.py" name="obst_node" />
+output="screen" />
+</launch>
